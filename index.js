@@ -39,6 +39,7 @@ const runButton3 = document.getElementById("runButton3");
 runButton3.addEventListener("click", () => {
   setTimeout(function() {
     ele.style.left = 0;
+    animate(ele, 400)
   },350);
   
   // call animate function here
